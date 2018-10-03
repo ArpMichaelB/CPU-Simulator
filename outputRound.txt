@@ -1,0 +1,260 @@
+Starting CPU Simulation with Round Robin Scheduling
+Time Slice: 1
+command read: add job Job_A with length 4
+Adding Job to Ready Queue: [Name: Job_A Length: 4 Execution: 0 Remaining: 4 Wait: 0]
+Retrieved Job from Ready Queue: [Name: Job_A Length: 4 Execution: 0 Remaining: 4 Wait: 0]
+Executing: job [Name: Job_A Length: 4 Execution: 1 Remaining: 3 Wait: 0]
+Time Slice: 2
+command read: add job Job_B with length 4
+Adding Job to Ready Queue: [Name: Job_B Length: 4 Execution: 0 Remaining: 4 Wait: 0]
+Retrieved Job from Ready Queue: [Name: Job_A Length: 4 Execution: 1 Remaining: 3 Wait: 0]
+Executing: job [Name: Job_A Length: 4 Execution: 2 Remaining: 2 Wait: 0]
+Time Slice: 3
+command read: add job Job_C with length 4
+Adding Job to Ready Queue: [Name: Job_C Length: 4 Execution: 0 Remaining: 4 Wait: 0]
+Retrieved Job from Ready Queue: [Name: Job_A Length: 4 Execution: 2 Remaining: 2 Wait: 0]
+Executing: job [Name: Job_A Length: 4 Execution: 3 Remaining: 1 Wait: 0]
+Time Slice: 4
+command read: add job Job_D with length 4
+Adding Job to Ready Queue: [Name: Job_D Length: 4 Execution: 0 Remaining: 4 Wait: 0]
+Retrieved Job from Ready Queue: [Name: Job_B Length: 4 Execution: 0 Remaining: 4 Wait: 2]
+Executing: job [Name: Job_B Length: 4 Execution: 1 Remaining: 3 Wait: 2]
+Time Slice: 5
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_A Length: 4 Execution: 3 Remaining: 1 Wait: 1]
+Executing: job [Name: Job_A Length: 4 Execution: 4 Remaining: 0 Wait: 1]
+Completed: [Name: Job_A Length: 4 Execution: 4 Remaining: 0 Wait: 1]
+Time Slice: 6
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_C Length: 4 Execution: 0 Remaining: 4 Wait: 3]
+Executing: job [Name: Job_C Length: 4 Execution: 1 Remaining: 3 Wait: 3]
+Time Slice: 7
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_D Length: 4 Execution: 0 Remaining: 4 Wait: 3]
+Executing: job [Name: Job_D Length: 4 Execution: 1 Remaining: 3 Wait: 3]
+Time Slice: 8
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_B Length: 4 Execution: 1 Remaining: 3 Wait: 5]
+Executing: job [Name: Job_B Length: 4 Execution: 2 Remaining: 2 Wait: 5]
+Time Slice: 9
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_C Length: 4 Execution: 1 Remaining: 3 Wait: 5]
+Executing: job [Name: Job_C Length: 4 Execution: 2 Remaining: 2 Wait: 5]
+Time Slice: 10
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_D Length: 4 Execution: 1 Remaining: 3 Wait: 5]
+Executing: job [Name: Job_D Length: 4 Execution: 2 Remaining: 2 Wait: 5]
+Time Slice: 11
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_B Length: 4 Execution: 2 Remaining: 2 Wait: 7]
+Executing: job [Name: Job_B Length: 4 Execution: 3 Remaining: 1 Wait: 7]
+Time Slice: 12
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_C Length: 4 Execution: 2 Remaining: 2 Wait: 7]
+Executing: job [Name: Job_C Length: 4 Execution: 3 Remaining: 1 Wait: 7]
+Time Slice: 13
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_D Length: 4 Execution: 2 Remaining: 2 Wait: 7]
+Executing: job [Name: Job_D Length: 4 Execution: 3 Remaining: 1 Wait: 7]
+Time Slice: 14
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_B Length: 4 Execution: 3 Remaining: 1 Wait: 9]
+Executing: job [Name: Job_B Length: 4 Execution: 4 Remaining: 0 Wait: 9]
+Completed: [Name: Job_B Length: 4 Execution: 4 Remaining: 0 Wait: 9]
+Time Slice: 15
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_C Length: 4 Execution: 3 Remaining: 1 Wait: 9]
+Executing: job [Name: Job_C Length: 4 Execution: 4 Remaining: 0 Wait: 9]
+Completed: [Name: Job_C Length: 4 Execution: 4 Remaining: 0 Wait: 9]
+Time Slice: 16
+command read: no new job this time slice
+Retrieved Job from Ready Queue: [Name: Job_D Length: 4 Execution: 3 Remaining: 1 Wait: 9]
+Executing: job [Name: Job_D Length: 4 Execution: 4 Remaining: 0 Wait: 9]
+Completed: [Name: Job_D Length: 4 Execution: 4 Remaining: 0 Wait: 9]
+Time Slice: 17
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 1 continuous time slices
+Time Slice: 18
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 2 continuous time slices
+Time Slice: 19
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 3 continuous time slices
+Time Slice: 20
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 4 continuous time slices
+Time Slice: 21
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 5 continuous time slices
+Time Slice: 22
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 6 continuous time slices
+Time Slice: 23
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 7 continuous time slices
+Time Slice: 24
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 8 continuous time slices
+Time Slice: 25
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 9 continuous time slices
+Time Slice: 26
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 10 continuous time slices
+Time Slice: 27
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 11 continuous time slices
+Time Slice: 28
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 12 continuous time slices
+Time Slice: 29
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 13 continuous time slices
+Time Slice: 30
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 14 continuous time slices
+Time Slice: 31
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 15 continuous time slices
+Time Slice: 32
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 16 continuous time slices
+Time Slice: 33
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 17 continuous time slices
+Time Slice: 34
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 18 continuous time slices
+Time Slice: 35
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 19 continuous time slices
+Time Slice: 36
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 20 continuous time slices
+Time Slice: 37
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 21 continuous time slices
+Time Slice: 38
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 22 continuous time slices
+Time Slice: 39
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 23 continuous time slices
+Time Slice: 40
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 24 continuous time slices
+Time Slice: 41
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 25 continuous time slices
+Time Slice: 42
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 26 continuous time slices
+Time Slice: 43
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 27 continuous time slices
+Time Slice: 44
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 28 continuous time slices
+Time Slice: 45
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 29 continuous time slices
+Time Slice: 46
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 30 continuous time slices
+Time Slice: 47
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 31 continuous time slices
+Time Slice: 48
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 32 continuous time slices
+Time Slice: 49
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 33 continuous time slices
+Time Slice: 50
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 34 continuous time slices
+Time Slice: 51
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 35 continuous time slices
+Time Slice: 52
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 36 continuous time slices
+Time Slice: 53
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 37 continuous time slices
+Time Slice: 54
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 38 continuous time slices
+Time Slice: 55
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 39 continuous time slices
+Time Slice: 56
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 40 continuous time slices
+Time Slice: 57
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 41 continuous time slices
+Time Slice: 58
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 42 continuous time slices
+Time Slice: 59
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 43 continuous time slices
+Time Slice: 60
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 44 continuous time slices
+Time Slice: 61
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 45 continuous time slices
+Time Slice: 62
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 46 continuous time slices
+Time Slice: 63
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 47 continuous time slices
+Time Slice: 64
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 48 continuous time slices
+Time Slice: 65
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 49 continuous time slices
+Time Slice: 66
+command read: no new job this time slice
+Ready queue empty, nothing to execute, CPU idle for 50 continuous time slices
+CPU idle for 50 time slices. Shutting down.
+----- Summary -----
+
+Simulation Run Time: 16
+CPU Idle Time: 0
+CPU Busy Time: 16
+CPU Utilization: 100.0%
+Average Wait Time: 7.0
+List of Jobs in Order of Completion
+Job Job_A
+	 Length: 4
+	 Start Time: 1
+	 Finish Time: 5
+	 Execution Time: 4
+	 Wait Time: 1
+	 Response Ratio: 1.25
+Job Job_B
+	 Length: 4
+	 Start Time: 2
+	 Finish Time: 14
+	 Execution Time: 4
+	 Wait Time: 9
+	 Response Ratio: 3.25
+Job Job_C
+	 Length: 4
+	 Start Time: 3
+	 Finish Time: 15
+	 Execution Time: 4
+	 Wait Time: 9
+	 Response Ratio: 3.25
+Job Job_D
+	 Length: 4
+	 Start Time: 4
+	 Finish Time: 16
+	 Execution Time: 4
+	 Wait Time: 9
+	 Response Ratio: 3.25
